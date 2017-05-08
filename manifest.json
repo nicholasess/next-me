@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Next me",
+  "version": "0.1.0",
+  "description": "Desbloquear tentativas da aplicação",
+ 
+  "content_scripts": [{
+    "js": ["jquery.js","background.js"],
+    "matches": ["https://next.me/*"]
+  }]
+ 
+}
